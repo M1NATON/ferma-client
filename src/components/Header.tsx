@@ -18,13 +18,12 @@ const Header = () => {
                 </NavLink>
             </div>
             <div className="mb-10">
-                <NavLink to={'/'} className="text-center">
+                <NavLink to={'/about'} className="text-center">
                     <img src="/assets/header/about.svg"
                          className={'transition-all w-[70px]  mx-auto hover:translate-y-[-10px]'} alt=""/>
                     <p className={''}>О нас</p>
                 </NavLink>
-            </div>
-
+        </div>x
             <div className="mb-10">
                 <NavLink to={'/'} className="text-center mb-10">
                     <img src="/assets/header/contact.svg"
