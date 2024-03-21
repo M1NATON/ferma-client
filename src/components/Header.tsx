@@ -25,7 +25,7 @@ const Header = () => {
                 </NavLink>
         </div>x
             <div className="mb-10">
-                <NavLink to={'/'} className="text-center mb-10">
+                <NavLink to={'/contact'} className="text-center mb-10">
                     <img src="/assets/header/contact.svg"
                          className={'transition-all w-[70px]  mx-auto hover:translate-y-[-10px]'} alt=""/>
                     <p className={''}>Контакты</p>

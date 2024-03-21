@@ -10,7 +10,7 @@ const HomeNav = () => {
             <div className="w-full flex flex-wrap justify-between">
                 <HomeNavItem text={'Продукт'} img={'/assets/home/homeNav/products.webp'} link={'/'}/>
                 <div className="w-[50%] h-[500px] rounded-3xl relative">
-                    <NavLink to={'/'}>
+                    <NavLink to={'/production'}>
                         <video loop autoPlay={true}
                                src={'/assets/home/homeNav/084859dc-2083-4703-a245-65299fe15139.webm'}
                                className={'w-full h-full object-cover rounded-3xl'} />
@@ -21,7 +21,7 @@ const HomeNav = () => {
                 </div>
 
                 <div className="w-[50%] h-[500px] rounded-3xl relative">
-                    <NavLink to={'/'}>
+                    <NavLink to={'/out-farms'}>
                         <video loop autoPlay={true}
                                src={'/assets/home/homeNav/ferma.webm'}
                                className={'w-full h-full object-cover rounded-3xl'}/>
